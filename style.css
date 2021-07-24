@@ -1,0 +1,80 @@
+#img {
+  background-color: black;
+}
+
+img {
+  width: 100%;
+  opacity: 50%;
+}
+
+#font {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  color: white;
+  padding: 40px;
+}
+
+.imformation {
+  padding: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#about {
+  margin-top: 60px;
+}
+
+.content {
+  width: 30%;
+  padding: 20px;
+  margin-top: 20px;
+  opacity: 0%;
+  transition: all 1s;
+}
+
+.imfor {
+  width: 30%;
+  padding: 20px;
+  margin-top: 20px;
+  transition: all 1s;
+}
+
+.mole {
+  width: 100px;
+  height: 100px;
+  border: 2px solid brown;
+}
+
+.mole img {
+  opacity: 0%;
+}
+
+.appear {
+  width: 100px;
+  height: 100px;
+  border: 2px solid brown;
+}
+
+.appear img {
+  opacity: 100%;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 10px;
+}
+
+.mogura {
+  margin: 40px;
+}
